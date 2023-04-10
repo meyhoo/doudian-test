@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="base-dal" />
+        <module name="demo-biz" />
+        <module name="base-deploy" />
+        <module name="demo-deploy" />
+        <module name="demo-web" />
+        <module name="demo-dal" />
+        <module name="base-web" />
+        <module name="demo-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="base-dal" options="-parameters" />
+      <module name="base-deploy" options="-parameters" />
+      <module name="base-web" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="demo-api" options="-parameters" />
+      <module name="demo-biz" options="-parameters" />
+      <module name="demo-dal" options="-parameters" />
+      <module name="demo-deploy" options="-parameters" />
+      <module name="demo-web" options="-parameters" />
+    </option>
+  </component>
+</project>
