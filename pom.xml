@@ -41,6 +41,7 @@
         <module>demo-dal</module>
         <module>demo-deploy</module>
         <module>demo-web</module>
+        <module>demo-deploy2</module>
     </modules>
 
     <dependencyManagement>

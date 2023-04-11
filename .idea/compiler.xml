@@ -14,6 +14,7 @@
         <module name="demo-web" />
         <module name="demo-dal" />
         <module name="base-web" />
+        <module name="demo-deploy2" />
         <module name="demo-api" />
       </profile>
     </annotationProcessing>
@@ -28,6 +29,7 @@
       <module name="demo-biz" options="-parameters" />
       <module name="demo-dal" options="-parameters" />
       <module name="demo-deploy" options="-parameters" />
+      <module name="demo-deploy2" options="-parameters" />
       <module name="demo-web" options="-parameters" />
     </option>
   </component>
