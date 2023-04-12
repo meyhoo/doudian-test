@@ -24,7 +24,7 @@ import java.util.concurrent.TimeUnit;
  */
 @ExtensionService("dditoOrderSearchItem.get")
 @Slf4j
-public class OrderSearchGetService implements ExtensionServiceHandler<DditoOrderSearchItemGetRequest, DditoOrderSearchItemGetResponse> {
+public class OrderSearchGetDemoService implements ExtensionServiceHandler<DditoOrderSearchItemGetRequest, DditoOrderSearchItemGetResponse> {
 
     @Autowired
     private TestService testService;

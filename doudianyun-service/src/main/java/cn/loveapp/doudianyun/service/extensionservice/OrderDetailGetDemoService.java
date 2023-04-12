@@ -20,7 +20,7 @@ import lombok.extern.slf4j.Slf4j;
  */
 @ExtensionService("orderDetailGet")
 @Slf4j
-public class OrderDetailGetService implements ExtensionServiceHandler<OrderDetailGetRequest, OrderDetailGetResponse> {
+public class OrderDetailGetDemoService implements ExtensionServiceHandler<OrderDetailGetRequest, OrderDetailGetResponse> {
 
     @Override
     public BaseResponse<OrderDetailGetResponse> handle(BaseRequest<OrderDetailGetRequest> req) {
