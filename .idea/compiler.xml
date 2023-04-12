@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="base-dal" />
         <module name="doudianyun-service" />
+        <module name="doudianyun-consumer" />
         <module name="base-deploy" />
         <module name="doudianyun-db-common" />
         <module name="demo-deploy" />
@@ -37,6 +38,7 @@
       <module name="demo-deploy2" options="-parameters" />
       <module name="demo-web" options="-parameters" />
       <module name="doudianyun-common" options="-parameters" />
+      <module name="doudianyun-consumer" options="-parameters" />
       <module name="doudianyun-db-common" options="-parameters" />
       <module name="doudianyun-service" options="-parameters" />
     </option>

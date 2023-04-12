@@ -41,6 +41,7 @@
         <module>doudianyun-common</module>
         <module>doudianyun-db-common</module>
         <module>doudianyun-service</module>
+        <module>doudianyun-consumer</module>
     </modules>
 
     <dependencyManagement>
