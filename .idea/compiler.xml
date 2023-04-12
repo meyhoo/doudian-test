@@ -8,16 +8,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="base-dal" />
-        <module name="demo-biz" />
+        <module name="doudianyun-service" />
         <module name="base-deploy" />
+        <module name="doudianyun-db-common" />
         <module name="demo-deploy" />
-        <module name="demo-web" />
-        <module name="demo-dal" />
         <module name="base-web" />
-        <module name="demo-deploy2" />
-        <module name="demo-api" />
+        <module name="doudianyun-common" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo-api" target="1.8" />
+      <module name="demo-biz" target="1.8" />
+      <module name="demo-dal" target="1.8" />
+      <module name="demo-deploy2" target="1.8" />
+      <module name="demo-web" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -31,6 +36,9 @@
       <module name="demo-deploy" options="-parameters" />
       <module name="demo-deploy2" options="-parameters" />
       <module name="demo-web" options="-parameters" />
+      <module name="doudianyun-common" options="-parameters" />
+      <module name="doudianyun-db-common" options="-parameters" />
+      <module name="doudianyun-service" options="-parameters" />
     </option>
   </component>
 </project>

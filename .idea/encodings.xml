@@ -9,8 +9,8 @@
     <file url="file://$PROJECT_DIR$/demo-dal/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-deploy/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-deploy/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo-deploy2/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo-web/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doudianyun-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doudianyun-db-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doudianyun-service/src/main/java" charset="UTF-8" />
   </component>
 </project>

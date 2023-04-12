@@ -1,0 +1,9 @@
+/logs/
+/target/
+/doudianyun-service/target/
+/doudianyun-db-common/target/
+/doudianyun-common/target/
+/demo-web/target/
+/demo-deploy/target/
+/demo-dal/target/
+/demo-api/target/

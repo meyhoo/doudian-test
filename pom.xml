@@ -36,12 +36,10 @@
     </properties>
 
     <modules>
-        <module>demo-api</module>
-        <module>demo-biz</module>
-        <module>demo-dal</module>
         <module>demo-deploy</module>
-        <module>demo-web</module>
-        <module>demo-deploy2</module>
+        <module>doudianyun-common</module>
+        <module>doudianyun-db-common</module>
+        <module>doudianyun-service</module>
     </modules>
 
     <dependencyManagement>

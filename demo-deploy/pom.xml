@@ -13,7 +13,7 @@
     <dependencies>
         <dependency>
             <groupId>com.jinritemai.cloud</groupId>
-            <artifactId>demo-web</artifactId>
+            <artifactId>doudianyun-service</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>
