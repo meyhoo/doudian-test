@@ -34,7 +34,7 @@ public class CloudBaseController {
     }
 
     @PostMapping("/cloud/spi")
-    public SpiResponseDTO handleSpi(@RequestBody SpiRequestDTO spiRequestDTO, @RequestHeader(LogUtils.LOG_ID_KEY) String logId) {
+    public SpiResponseDTO handleSpi(@RequestBody SpiRequestDTO spiRequestDTO, @RequestHeader(value = LogUtils.LOG_ID_KEY, required = false) String logId) {
         LogUtils.setLogId(logId);
         try {
             return spiService.handle(spiRequestDTO);
