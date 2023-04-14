@@ -25,12 +25,18 @@
             <artifactId>sdk-java</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/../lib/boe-doudian-sdk-java-1.1.0-20220722165329.jar</systemPath>
+            <systemPath>${project.basedir}/../lib/doudian-sdk-java-1.1.0-20230413105533.jar</systemPath>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>${reflections.version}</version>
         </dependency>
 
         <dependency>
